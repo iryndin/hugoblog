@@ -1,3 +1,7 @@
 baseURL = "http://iryndin.net"
 languageCode = "en-us"
 title = "Just my blog"
+
+[params]
+    gaid = "UA-55566999-1"
+
