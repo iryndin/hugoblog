@@ -1,7 +1,7 @@
 +++
 date = "2017-04-17T22:50:22+03:00"
 title = "Blockchain and Bitcoin links"
-tags = ["blockchain"]
+tags = ["blockchain", "Bunch of links"]
 +++
 
 This posts contains links to some articles, blog posts and other materials which looks interesting for me, give good explanation/description of the field and simply put are pleasure to read. 
