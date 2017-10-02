@@ -9,7 +9,7 @@ title = "Spring Boot and AWT headless"
 ## The problem with AWT headless app in Spring Boot
 
 Recently I needed to create console Java Spring Boot app that does some stuff with AWT (not so important what exactly). 
-I found that simple run with a normat Sprint Boot stub simply does not work. Running this:
+I found that simple run with a normat Spring Boot stub simply does not work. Running this:
 
 ```
 @SpringBootApplication
