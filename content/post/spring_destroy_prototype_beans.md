@@ -104,6 +104,8 @@ It is simple:
  * Save reference to bean if and only if it is of prototype scope
  * This `DestroyPrototypeBeansPostProcessor` is Spring bean itself, so when it's `destroy` method is called - we destroy all prototype beans.
 
+Here is full code of the project: https://github.com/iryndin/misc/tree/master/blogprjs/03-beanpostprocessor-destroyprototypes
+ 
 ## Useful
 
 It is useful to take a look at implementation of 
