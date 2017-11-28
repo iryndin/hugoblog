@@ -16,6 +16,10 @@ We have 4 standard-defined transaction isolation levels:
 * **Repeatable read.** Dirty reads - NO, Non-Repeatable reads - NO, Phantom reads - YES.
 * **Serializable.** Dirty reads - NO, Non-Repeatable reads - NO, Phantom reads - NO.
 
+Here `YES` means `may occur`, while `NO` means `should not occur at all`. So `NO` here is more strong expression than `YES`. 
+Different DBMS may make this `YES` more restrictive. E.g. PostgreSQL does not allow `Phantom Reads` on its `Repeatable read` level. 
+See details here: [PostgreSQL transaction isolation levels](/post/postgresql_transaction_isolation_levels/).
+
 ## Read phenomena
 
 The ANSI/ISO standard SQL 92 refers to three different read phenomena when Transaction 1 reads data 
