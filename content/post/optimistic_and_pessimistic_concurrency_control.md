@@ -5,6 +5,10 @@ title = "Optimistic and pessimistic concurrency control"
 tags = ["database"]
 +++
 
+Here we consider two most widely used approaches to transactional locking: pessimistic and optimistic locking.
+
+<!--more-->
+
 Transactional isolation is usually implemented by locking whatever is accessed in a transaction. 
 There are two different approaches to transactional locking: 
 

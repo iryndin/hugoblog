@@ -5,6 +5,10 @@ title = "PostgreSQL transaction isolation levels"
 tags = ["database", "postgresql"]
 +++
 
+Details of transaction isolation in PostgreSQL.
+
+<!--more-->
+
 On previous post [about transaction isolation levels](/post/transaction_isolation_levels/) we considered what is 
 transaction isolation level and how this influence the result we get from transaction. But from database to database 
 details are diferent, so let's consider transaction isolation details for PostgreSQL.

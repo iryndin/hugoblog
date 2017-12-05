@@ -5,6 +5,11 @@ title = "Spring Bean PostProcessors"
 tags = ["spring"]
 +++
 
+Spring `BeanPostProcessor` is a nice feature that gives you much power into hands. 
+You can do a lot of fun things with `BeanPostProcessor`s, and this post demonstrates some of them with a series of short examples.
+
+<!--more-->
+
 Let's speak about Bean PostProcessors in Spring Framework. 
 
 The [BeanPostProcessor](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/beans/factory/config/BeanPostProcessor.html) 

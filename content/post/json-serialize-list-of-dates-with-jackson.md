@@ -5,6 +5,12 @@ title = "Serialize list of dates into JSON with Jackson"
 
 +++
 
+There are a lot of examples about how to serialize `Date` objects into JSON. 
+But I was not able to find examples that explain how to serialize a collection of dates: `Collection<Date>`. 
+I had to dive into code and find out it myself. In this post I share my findings with you. 
+
+<!--more-->
+
 ## Problem
 
 Let's imagine that we need to return JSON form of the following Java object: 

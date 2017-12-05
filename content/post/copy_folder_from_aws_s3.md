@@ -7,6 +7,8 @@ tags = ["aws"]
 
 How could we copy a folder from AWS S3 to local machine using AWS CLI?
 
+<!--more-->
+
 ## Use cp command
 
 We can use `cp` command to copy folder or file from S3 to local machine. If we add parameter `--recursive` then 

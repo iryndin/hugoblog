@@ -5,6 +5,10 @@ title = "Java objects memory size"
 
 +++
 
+Here we try to analyze how much memory will consume Java objects. All numbers are given for 64-bit machines.
+
+<!--more-->
+
 All numbers here are given for 64-bit JVMs. 
 
 ## Primitive types

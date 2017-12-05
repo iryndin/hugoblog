@@ -5,7 +5,9 @@ title = "Transaction isolation levels"
 tags = ["database", "jdbc"]
 +++
 
-Let's speak about transaction isolation levels. 
+Transaction isolation levels in relational databases. A reminder post.  
+
+<!--more-->
 
 ## ANSI/SQL standard isolation levels
 

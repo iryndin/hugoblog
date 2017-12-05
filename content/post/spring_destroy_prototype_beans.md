@@ -5,6 +5,11 @@ title = "Spring: destroy prototype beans"
 tags = ["spring"]
 +++
 
+Prototype-scoped beans destruction is not managed by Spring container (only construction is managed). 
+But we can manage it ourselves with Spring `BeanPostProcessor`s. 
+
+<!--more-->
+
 In previos post ([Spring Bean PostProcessors](/post/spring_beanpostprocessors/)) we considered some trivial examples of using `BeanPostProcessor`.
 Now let's consider more interesting case - destruction of prototype-scoped beans. 
 The reason for this is that **Spring does not manage desctruction phase of prototype-scoped beans**, as it is mentioned in the docs: 
