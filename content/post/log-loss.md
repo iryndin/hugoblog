@@ -1,6 +1,6 @@
 +++
 date = "2018-11-01T14:20:39Z"
-title = "Log loss metric"
+title = "Log loss metric explained"
 Tags = ["machine learning"]
 +++
 
