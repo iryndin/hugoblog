@@ -49,7 +49,7 @@ Folder `themes` should contain Hugo theme which we are going to use. For this ex
 Now, let's run Hugo docker image to run a webserver on localhost, so that we would be able to look at our website in browser:
 
 ```
-docker run --rm --name "hugo1" -p 1313:1313 -v $(pwd)/src:/src -v $(pwd)/output:/output -e HUGO_THEME="hugo-redlounge" -e HUGO_WATCH="true" jojomi/hugo:0.19
+docker run --rm --name "hugo1" -p 1313:1313 -v $(pwd)/src:/src -v $(pwd)/output:/output -e HUGO_THEME="hugo-redlounge" -e HUGO_WATCH="true" jojomi/hugo:0.26
 ```
 
 Now we will be able to see our website in browser at `http://localhost:1313`
@@ -70,7 +70,7 @@ Now let's generate static content for our site. To generate static content in `o
 container named `hugo1` (that used in this example to run local webserver).
 
 ```
-docker run --rm --name "hugo2" -v $(pwd)/src:/src -v $(pwd)/output2:/output -e HUGO_THEME="hugo-redlounge" jojomi/hugo:0.19
+docker run --rm --name "hugo2" -v $(pwd)/src:/src -v $(pwd)/output2:/output -e HUGO_THEME="hugo-redlounge" jojomi/hugo:0.26
 ```
 
 And you will have your static site in `output2` folder.
