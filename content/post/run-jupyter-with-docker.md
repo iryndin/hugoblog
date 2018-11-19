@@ -23,6 +23,10 @@ docker run --rm -p 8888:8888 --name myds1 jupyter/scipy-notebook:latest
 ```
 Then you open your browser, and copy URL that running Jupyter shows you. That is it!
 
+Another image that I often use is `tensorflow-notebook`. It includes `tensorflow` and `keras`, and this allows to work with neural network models. Command to run this image is: 
 
+```
+docker run --rm -p 8888:8888 --name myds1 jupyter/scipy-tensorflow:latest
+```
 
 
