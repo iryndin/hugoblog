@@ -222,6 +222,15 @@ a.post-author {
     margin-bottom: 1.75rem;
     margin-top: 0;
 }
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
 .post-title {
     font-size: 2rem;
     color: #222;
